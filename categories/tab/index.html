@@ -1,0 +1,664 @@
+<!DOCTYPE html>
+<html lang="zh-tw"><head>
+  
+  <title>
+    LIVE BAND - tab 
+  </title>
+  <meta name="theme-color" content="" />
+  <meta charset="utf-8" />
+  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+  <meta name="description" content="A personal site for music shows" />
+  <meta name="author" content="James Hsu" />
+
+  <meta property="og:url" content="https://jamesgodwon.github.io/MusicSite/categories/tab/" />
+  <meta property="og:type" content="website" />
+  <meta
+    property="og:title"
+    content="LIVE BAND - tab "
+  />
+  <meta property="og:description" content="A personal site for music shows" />
+  <meta property="og:image" content="https://jamesgodwon.github.io/MusicSite/images/profile.jpg" />
+
+  <link rel="alternate" type="application/rss+xml" href="https://jamesgodwon.github.io/MusicSite/categories/tab/index.xml" title="" />
+  <link rel="stylesheet" href="/MusicSite/css/main.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Fira+Code&display=swap" rel="stylesheet"> 
+
+  <link rel="icon" type="image/gif" href="https://i.imgur.com/uQqi0VG.gif" />
+
+  
+  <style>
+    html {
+      font-size: "16px"
+    }
+  </style>
+
+  <script>
+    let initialY;
+    window.onload = function () {
+      initialY = window.scrollY;
+    };
+
+    window.addEventListener("scroll", () => {
+      let currentY = window.scrollY;
+      let header = document.querySelector("header");
+      let toTop = document.querySelector(".to-top-button");
+
+      toTop.style.display = currentY < 500 ? "none" : "inline-flex";
+
+      if (
+        document.body.offsetHeight - (window.innerHeight + window.pageYOffset) < 10
+      ) {
+        initialY = currentY;
+        header.style.top = "0";
+        return;
+      }
+
+      if (currentY - initialY > 60) {
+        initialY = currentY;
+        header.style.top = "-58px";
+      }
+
+      if (currentY - initialY < -5 || currentY < 60) {
+        initialY = currentY;
+        header.style.top = "0";
+      }
+    });
+  </script>
+</head>
+<body style="min-height: 100vh;"><header
+  style="
+  width: 95vw;
+  max-width: 960px;
+  position: fixed;
+  top: 0;
+  z-index: 10;
+  transition: all 0.3s;
+  height: 60px;
+  box-shadow:  0px 0px 2px 2px var(--bgBelow) ;
+  background-color:  var(--bgAbove) ;
+  "
+>
+  <div
+  class="hamburger-cross"
+  style="
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    z-index: 50;
+    width: 50px;
+    height: 50px;
+  "
+  onclick="myFunction()"
+>
+  <i class="hamburger" style="visibility: visible;">
+    <svg
+  aria-hidden="true"
+  focusable="false"
+  data-prefix="fas"
+  data-icon="bars"
+  class="svg-inline--fa fa-bars fa-w-14"
+  role="img"
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="0 0 448 512"
+>
+  <path
+    fill="currentColor"
+    d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z"
+  ></path>
+</svg>
+
+  </i>
+
+  <i class="cross" style="visibility: hidden;">
+    <svg
+  aria-hidden="true"
+  focusable="false"
+  data-prefix="fas"
+  data-icon="times"
+  class="svg-inline--fa fa-times fa-w-11"
+  role="img"
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="0 0 352 512"
+>
+  <path
+    fill="currentColor"
+    d="M242.72 256l100.07-100.07c12.28-12.28 12.28-32.19 0-44.48l-22.24-22.24c-12.28-12.28-32.19-12.28-44.48 0L176 189.28 75.93 89.21c-12.28-12.28-32.19-12.28-44.48 0L9.21 111.45c-12.28 12.28-12.28 32.19 0 44.48L109.28 256 9.21 356.07c-12.28 12.28-12.28 32.19 0 44.48l22.24 22.24c12.28 12.28 32.2 12.28 44.48 0L176 322.72l100.07 100.07c12.28 12.28 32.2 12.28 44.48 0l22.24-22.24c12.28-12.28 12.28-32.19 0-44.48L242.72 256z"
+  ></path>
+</svg>
+
+  </i>
+</div>
+<script>
+  const htmlDoc = document.querySelector("html");
+  const scrollBarWidth = window.innerWidth - htmlDoc.clientWidth;
+
+  const showMenu = (menu, hamBurger, cross) => {
+    htmlDoc.style.overflowY = "hidden";
+    htmlDoc.style.marginRight = scrollBarWidth + "px";
+    hamBurger.style.visibility = "hidden";
+    cross.style.visibility = "visible";
+    menu.classList.remove("collapsed");
+    menu.style.top = "0";
+  };
+
+  const hideMenu = (menu, hamBurger, cross) => {
+    htmlDoc.style.overflowY = "scroll";
+    htmlDoc.style.marginRight = "0";
+    hamBurger.style.visibility = "visible";
+    cross.style.visibility = "hidden";
+    menu.classList.add("collapsed");
+    menu.style.top = "-100vh";
+  };
+
+  const myFunction = () => {
+    const menu = document.querySelector(".slide-menu");
+    const hamBurger = document.querySelector(".hamburger");
+    const cross = document.querySelector(".cross");
+    menu.classList.contains("collapsed")
+      ? showMenu(menu, hamBurger, cross)
+      : hideMenu(menu, hamBurger, cross);
+  };
+</script>
+
+  <div
+    style="
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: flex-end;
+      align-items: flex-end;
+      padding: 0 1em 0 2em;
+      height: 100%;
+    "
+  >
+    <div
+  class="breadcrumb"
+  style="padding: 12px 0; line-height: 0.9em; text-align: right;"
+>
+  
+
+
+
+
+
+
+<span style="font-size: 0.9em;"><a
+    href="https://jamesgodwon.github.io/MusicSite/"
+    class="breadcrumb-link "
+    aria-label="Home"
+    style="margin-left: 5px; font-size: 0.9em; color:var(--primary);"
+    ><i><svg
+  aria-hidden="true"
+  focusable="false"
+  data-prefix="fas"
+  data-icon="home"
+  class="svg-inline--fa fa-home fa-w-18"
+  role="img"
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="0 0 576 512"
+>
+  <path
+    fill="currentColor"
+    d="M280.37 148.26L96 300.11V464a16 16 0 0 0 16 16l112.06-.29a16 16 0 0 0 15.92-16V368a16 16 0 0 1 16-16h64a16 16 0 0 1 16 16v95.64a16 16 0 0 0 16 16.05L464 480a16 16 0 0 0 16-16V300L295.67 148.26a12.19 12.19 0 0 0-15.3 0zM571.6 251.47L488 182.56V44.05a12 12 0 0 0-12-12h-56a12 12 0 0 0-12 12v72.61L318.47 43a48 48 0 0 0-61 0L4.34 251.47a12 12 0 0 0-1.6 16.9l25.5 31A12 12 0 0 0 45.15 301l235.22-193.74a12.19 12.19 0 0 1 15.3 0L530.9 301a12 12 0 0 0 16.9-1.6l25.5-31a12 12 0 0 0-1.7-16.93z"
+  ></path>
+</svg>
+</i></a
+  >
+</span>
+
+
+
+<span style="font-size: 0.9em;">/<a
+    href="https://jamesgodwon.github.io/MusicSite/categories/"
+    class="breadcrumb-link "
+    aria-label="Categories"
+    style="margin-left: 5px; font-size: 0.9em; color:var(--primary);"
+    >Categories</a
+  >
+</span>
+
+
+
+<span style="font-size: 0.9em;">/<a
+    href="#"
+    class="breadcrumb-link active"
+    aria-label="tab"
+    style="margin-left: 5px; font-size: 0.9em; color:var(--primaryHover);"
+    >tab</a
+  >
+</span>
+
+</div>
+
+
+
+  </div>
+  <div
+  class="slide-menu collapsed"
+  style="
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    background-color: var(--bgTransparent);
+    position: fixed;
+    left: 0;
+    top: -100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  "
+>
+  <div
+    class="menu-container"
+    style="
+      background-color: var(--bgAbove);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 6px;
+      border: solid 1px var(--textColor);
+      border-radius: 5px;
+      box-shadow: 3px 3px 5px 2px var(--bgBelow);
+    "
+  >
+    <a class="menu-item" href="/MusicSite"><i><svg
+  aria-hidden="true"
+  focusable="false"
+  data-prefix="fas"
+  data-icon="home"
+  class="svg-inline--fa fa-home fa-w-18"
+  role="img"
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="0 0 576 512"
+>
+  <path
+    fill="currentColor"
+    d="M280.37 148.26L96 300.11V464a16 16 0 0 0 16 16l112.06-.29a16 16 0 0 0 15.92-16V368a16 16 0 0 1 16-16h64a16 16 0 0 1 16 16v95.64a16 16 0 0 0 16 16.05L464 480a16 16 0 0 0 16-16V300L295.67 148.26a12.19 12.19 0 0 0-15.3 0zM571.6 251.47L488 182.56V44.05a12 12 0 0 0-12-12h-56a12 12 0 0 0-12 12v72.61L318.47 43a48 48 0 0 0-61 0L4.34 251.47a12 12 0 0 0-1.6 16.9l25.5 31A12 12 0 0 0 45.15 301l235.22-193.74a12.19 12.19 0 0 1 15.3 0L530.9 301a12 12 0 0 0 16.9-1.6l25.5-31a12 12 0 0 0-1.7-16.93z"
+  ></path>
+</svg>
+</i>Home</a>
+
+    
+    <a class="menu-item" href="https://jamesgodwon.github.io/MusicSite/about/"
+      ><i> <svg
+  aria-hidden="true"
+  focusable="false"
+  data-prefix="fas"
+  data-icon="portrait"
+  class="svg-inline--fa fa-portrait fa-w-12"
+  role="img"
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="0 0 384 512"
+>
+  <path
+    fill="currentColor"
+    d="M336 0H48C21.5 0 0 21.5 0 48v416c0 26.5 21.5 48 48 48h288c26.5 0 48-21.5 48-48V48c0-26.5-21.5-48-48-48zM192 128c35.3 0 64 28.7 64 64s-28.7 64-64 64-64-28.7-64-64 28.7-64 64-64zm112 236.8c0 10.6-10 19.2-22.4 19.2H102.4C90 384 80 375.4 80 364.8v-19.2c0-31.8 30.1-57.6 67.2-57.6h5c12.3 5.1 25.7 8 39.8 8s27.6-2.9 39.8-8h5c37.1 0 67.2 25.8 67.2 57.6v19.2z"
+  ></path>
+</svg>
+
+      </i>About me</a
+    >
+    
+    <a class="menu-item" href="https://jamesgodwon.github.io/MusicSite/post/"
+      ><i> <svg
+  aria-hidden="true"
+  focusable="false"
+  data-prefix="fas"
+  data-icon="folder"
+  class="svg-inline--fa fa-folder fa-w-16"
+  role="img"
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="0 0 512 512"
+>
+  <path
+    fill="currentColor"
+    d="M464 128H272l-64-64H48C21.49 64 0 85.49 0 112v288c0 26.51 21.49 48 48 48h416c26.51 0 48-21.49 48-48V176c0-26.51-21.49-48-48-48z"
+  ></path>
+</svg>
+ </i>Blog Posts</a
+    >
+    
+    <a class="menu-item" href="https://jamesgodwon.github.io/MusicSite/poems/"
+      ><i> <svg
+  aria-hidden="true"
+  focusable="false"
+  data-prefix="fas"
+  data-icon="folder"
+  class="svg-inline--fa fa-folder fa-w-16"
+  role="img"
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="0 0 512 512"
+>
+  <path
+    fill="currentColor"
+    d="M464 128H272l-64-64H48C21.49 64 0 85.49 0 112v288c0 26.51 21.49 48 48 48h416c26.51 0 48-21.49 48-48V176c0-26.51-21.49-48-48-48z"
+  ></path>
+</svg>
+ </i>Poems</a
+    >
+    
+    <a class="menu-item" href="https://jamesgodwon.github.io/MusicSite/archive/"
+      ><i> <svg
+  aria-hidden="true"
+  focusable="false"
+  data-prefix="fas"
+  data-icon="archive"
+  class="svg-inline--fa fa-archive fa-w-16"
+  role="img"
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="0 0 512 512"
+>
+  <path
+    fill="currentColor"
+    d="M32 448c0 17.7 14.3 32 32 32h384c17.7 0 32-14.3 32-32V160H32v288zm160-212c0-6.6 5.4-12 12-12h104c6.6 0 12 5.4 12 12v8c0 6.6-5.4 12-12 12H204c-6.6 0-12-5.4-12-12v-8zM480 32H32C14.3 32 0 46.3 0 64v48c0 8.8 7.2 16 16 16h480c8.8 0 16-7.2 16-16V64c0-17.7-14.3-32-32-32z"
+  ></path>
+</svg>
+
+      </i>Archive</a
+    >
+    
+  </div>
+</div>
+<script>
+  const slideMenu = document.querySelector(".slide-menu");
+  const menuContainer = document.querySelector(".menu-container");
+  slideMenu.addEventListener("click", (event) => {
+    if (event.target !== menuContainer){
+      const hamBurger = document.querySelector(".hamburger");
+      const cross = document.querySelector(".cross");
+      htmlDoc.style.overflowY = "scroll";
+      htmlDoc.style.marginRight = "0";
+      hamBurger.style.visibility = "visible";
+      cross.style.visibility = "hidden";
+      slideMenu.classList.add("collapsed");
+      slideMenu.style.top = "-100vh";
+    }
+  });
+</script>
+</header>
+<main id="content"  style="margin-top: 80px;" >
+
+<h1 style="margin: 0 0 0.5em 0; font-size: 2.5em;">
+  #tab</h1>
+
+
+<div
+  class="list-sections"
+  style="border-top: dashed 1px; margin: 0; padding: 12px 0;"
+>
+  <span style="font-size: 0.85em; font-style: italic;"
+    ><time>2020/06/01</time> &middot;
+    James Hsu</span
+  >
+  <a href="/MusicSite/post/post_1/">
+    <h2 style="margin: 0; font-size: 1.2em;">G和弦琶音音階</h2>
+  </a>
+  <p style="margin: 0; font-size: 0.9em;">
+    SO TI RE,SO TI RE,SO TI RE,SO TI~ 
+  </p>
+</div>
+
+
+<script>
+  document.onkeydown = function (e) {
+    const thisPage = document.querySelector(".page-item.active");
+    if (thisPage) {
+      switch (e.keyCode) {
+        case 37:
+          
+          let previousPage = thisPage.previousElementSibling.querySelector("a");
+          if (previousPage) {
+            previousPage.click();
+          }
+          break;
+        case 39:
+          
+          let nextPage = thisPage.nextElementSibling.querySelector("a");
+          if (nextPage) {
+            nextPage.click();
+          }
+          break;
+      }
+    }
+  };
+</script>
+
+    </main>
+    <footer style="display: flex; flex-direction: column; margin: 2em 0 0 0;">
+  <div
+    style="
+      position: fixed;
+      bottom: 60px;
+      margin: auto;
+      width: 95vw;
+      max-width: 960px;
+    "
+  >
+    <i
+      class="to-top-button"
+      onclick="toTop()"
+      style="
+        display: none;
+        transform: rotate(-90deg);
+        background-color: var(--bgAbove);
+        border-radius: 50%;
+        border: solid 2px var(--primary);
+        padding: 10px;
+        position: absolute;
+        cursor: pointer;
+        right: 10px;
+        font-size: 1.25em;
+      "
+      ><svg
+  aria-hidden="true"
+  focusable="false"
+  data-prefix="fas"
+  data-icon="chevron-right"
+  class="svg-inline--fa fa-chevron-right fa-w-10"
+  style="transform: rotate(0deg);"
+  role="img"
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="0 0 320 512"
+>
+  <path
+    fill="currentColor"
+    d="M285.476 272.971L91.132 467.314c-9.373 9.373-24.569 9.373-33.941 0l-22.667-22.667c-9.357-9.357-9.375-24.522-.04-33.901L188.505 256 34.484 101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373 24.569-9.373 33.941 0L285.475 239.03c9.373 9.372 9.373 24.568.001 33.941z"
+  ></path>
+</svg>
+</i
+    >
+  </div>
+
+  
+
+  
+  <div
+    style="
+      font-size: 0.9em;
+      background-color: var(--bgAbove);
+      box-shadow: 0px 0px 2px 2px var(--bgBelow);
+      padding-bottom: 5px;
+    "
+  >
+    <div style="display: flex; flex-wrap: wrap;">
+      <div
+        class="footer-social"
+        style="
+          padding: 0 15px;
+          max-width: 400px;
+          flex-basis: 33%;
+          box-sizing: border-box;
+        "
+      >
+        <h3>Contact</h3>
+        <ul style="padding: 0;">
+          
+          <li style="list-style: none;">
+            <a
+              href="#"
+              style="font-variant: small-caps;"
+              aria-label="email"
+            >
+              <svg
+  aria-hidden="true"
+  focusable="false"
+  data-prefix="fas"
+  data-icon="envelope"
+  class="svg-inline--fa fa-envelope fa-w-16"
+  role="img"
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="0 0 512 512"
+>
+  <path
+    fill="currentColor"
+    d="M502.3 190.8c3.9-3.1 9.7-.2 9.7 4.7V400c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V195.6c0-5 5.7-7.8 9.7-4.7 22.4 17.4 52.1 39.5 154.1 113.6 21.1 15.4 56.7 47.8 92.2 47.6 35.7.3 72-32.8 92.3-47.6 102-74.1 131.6-96.3 154-113.7zM256 320c23.2.4 56.6-29.2 73.4-41.4 132.7-96.3 142.8-104.7 173.4-128.7 5.8-4.5 9.2-11.5 9.2-18.9v-19c0-26.5-21.5-48-48-48H48C21.5 64 0 85.5 0 112v19c0 7.4 3.4 14.3 9.2 18.9 30.6 23.9 40.7 32.4 173.4 128.7 16.8 12.2 50.2 41.8 73.4 41.4z"
+  ></path>
+</svg>
+email
+            </a>
+          </li>
+          
+          <li style="list-style: none;">
+            <a
+              href="#"
+              style="font-variant: small-caps;"
+              aria-label="facebook"
+            >
+              <svg
+  aria-hidden="true"
+  focusable="false"
+  data-prefix="fab"
+  data-icon="facebook"
+  class="svg-inline--fa fa-facebook fa-w-16"
+  role="img"
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="0 0 512 512"
+>
+  <path
+    fill="currentColor"
+    d="M504 256C504 119 393 8 256 8S8 119 8 256c0 123.78 90.69 226.38 209.25 245V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.28c-30.8 0-40.41 19.12-40.41 38.73V256h68.78l-11 71.69h-57.78V501C413.31 482.38 504 379.78 504 256z"
+  ></path>
+</svg>
+facebook
+            </a>
+          </li>
+          
+          <li style="list-style: none;">
+            <a
+              href="#"
+              style="font-variant: small-caps;"
+              aria-label="instagram"
+            >
+              <svg 
+  viewBox="0 0 64 64" 
+  xmlns="http://www.w3.org/2000/svg" 
+  aria-labelledby="title"
+  aria-describedby="desc" 
+  role="img" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <title>Instagram</title>
+  <desc>A color styled icon from Orion Icon Library.</desc>
+  <defs>
+    <radialGradient gradientUnits="userSpaceOnUse" gradientTransform="matrix(.5 0 0 -.5 -16 -1395.5)"
+    r="163.552" cy="-2919.444" cx="51.111" id="2d4eb7cd-775c-4725-bb08-ad6a2387c51c">
+      <stop data-name="layer1" stop-color="#ffb140" offset="0"></stop>
+      <stop data-name="layer2" stop-color="#ff5445" offset=".256"></stop>
+      <stop data-name="layer3" stop-color="#fc2b82" offset=".599"></stop>
+      <stop data-name="layer4" stop-color="#8e40b7" offset="1"></stop>
+    </radialGradient>
+  </defs>
+  <path 
+    fill="currentColor" 
+    d="M52.922 14.918a3.84 3.84 0 1 1-3.84-3.84 3.84 3.84 0 0 1 3.84 3.84zM32 42.668A10.667 10.667 0 1 1 42.667 32 10.666 10.666 0 0 1 32 42.667zm0-27.1A16.433 16.433 0 1 0 48.433 32 16.432 16.432 0 0 0 32 15.568zm0-9.8c8.545 0 9.556.03 12.93.186a17.7 17.7 0 0 1 5.943 1.1 9.916 9.916 0 0 1 3.68 2.394 9.908 9.908 0 0 1 2.394 3.68 17.714 17.714 0 0 1 1.1 5.942c.154 3.375.187 4.386.187 12.93s-.033 9.557-.187 12.932a17.7 17.7 0 0 1-1.1 5.942 10.6 10.6 0 0 1-6.074 6.074 17.714 17.714 0 0 1-5.942 1.1c-3.37.154-4.382.187-12.93.187s-9.554-.033-12.93-.187a17.7 17.7 0 0 1-5.94-1.1 9.916 9.916 0 0 1-3.68-2.394 9.914 9.914 0 0 1-2.394-3.68 17.714 17.714 0 0 1-1.1-5.942c-.154-3.375-.19-4.387-.19-12.932s.033-9.556.188-12.93a17.7 17.7 0 0 1 1.1-5.943 9.916 9.916 0 0 1 2.394-3.68 9.908 9.908 0 0 1 3.68-2.394 17.714 17.714 0 0 1 5.942-1.1c3.374-.153 4.385-.187 12.93-.187zM32 0c-8.69 0-9.78.037-13.194.192A23.487 23.487 0 0 0 11.04 1.68a15.68 15.68 0 0 0-5.67 3.69 15.68 15.68 0 0 0-3.69 5.67 23.49 23.49 0 0 0-1.488 7.766C.037 22.22 0 23.31 0 32s.037 9.78.192 13.194A23.49 23.49 0 0 0 1.68 52.96a15.68 15.68 0 0 0 3.69 5.67 15.687 15.687 0 0 0 5.67 3.69 23.49 23.49 0 0 0 7.766 1.487c3.413.156 4.5.193 13.194.193s9.78-.037 13.194-.193a23.49 23.49 0 0 0 7.767-1.487 16.363 16.363 0 0 0 9.36-9.36 23.49 23.49 0 0 0 1.49-7.767C63.963 41.78 64 40.69 64 32s-.037-9.78-.193-13.194a23.49 23.49 0 0 0-1.487-7.767 15.687 15.687 0 0 0-3.69-5.67 15.687 15.687 0 0 0-5.67-3.69A23.49 23.49 0 0 0 45.194.19C41.78.037 40.69 0 32 0z">
+  </path>
+</svg>instagram
+            </a>
+          </li>
+          
+        </ul>
+      </div>
+
+      <div
+        class="footer-sections"
+        style="
+          padding: 0 15px;
+          max-width: 400px;
+          flex-basis: 33%;
+          box-sizing: border-box;
+        "
+      >
+        <h3>Sections</h3>
+        <ul style="padding: 0;">
+          
+          <li style="list-style: none;">
+            <a href="https://jamesgodwon.github.io/MusicSite/about/">About me</a>
+          </li>
+          
+          <li style="list-style: none;">
+            <a href="https://jamesgodwon.github.io/MusicSite/post/">Blog Posts</a>
+          </li>
+          
+          <li style="list-style: none;">
+            <a href="https://jamesgodwon.github.io/MusicSite/poems/">Poems</a>
+          </li>
+          
+          <li style="list-style: none;">
+            <a href="https://jamesgodwon.github.io/MusicSite/archive/">Archive</a>
+          </li>
+          
+        </ul>
+      </div>
+
+      <div
+        class="footer-recent"
+        style="
+          padding: 0 15px;
+          max-width: 400px;
+          flex-basis: 33%;
+          flex-grow: 1;
+          box-sizing: border-box;
+        "
+      >
+        <h3>Recent</h3>
+        <ol style="padding-left: 0.75em;">
+          
+          <li>
+            <a href="https://jamesgodwon.github.io/MusicSite/post/post_1/">G和弦琶音音階</a>
+          </li>
+          
+          <li>
+            <a href="https://jamesgodwon.github.io/MusicSite/poems/poems_3/">nisl natoque lacinia</a>
+          </li>
+          
+          <li>
+            <a href="https://jamesgodwon.github.io/MusicSite/poems/poems_5/">ullamcorper sed sociis</a>
+          </li>
+          
+          <li>
+            <a href="https://jamesgodwon.github.io/MusicSite/post/post_2/">enim ultricies dolore …</a>
+          </li>
+          
+          <li>
+            <a href="https://jamesgodwon.github.io/MusicSite/post/post_5/">morbi faucibus tempus sed …</a>
+          </li>
+          
+        </ol>
+      </div>
+    </div>
+    <hr style="width: 50%; border-color: var(--textColor);" />
+    <div style="text-align: center;">
+      <p style="margin: 0 0 5px 0;">2020 POCHUN HSU.</p>
+      <p style="margin: 0;">
+      
+      </p>
+    </div>
+  </div>
+</footer>
+<script>
+  toTop = () => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  };
+</script>
+
+  </body>
+</html>

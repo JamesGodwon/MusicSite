@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>notes on </title>
+    <link>https://jamesgodwon.github.io/MusicSite/categories/notes/</link>
+    <description>Recent content in notes on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-tw</language>
+    <lastBuildDate>Mon, 01 Jun 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://jamesgodwon.github.io/MusicSite/categories/notes/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>G和弦琶音音階</title>
+      <link>https://jamesgodwon.github.io/MusicSite/post/post_1/</link>
+      <pubDate>Mon, 01 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://jamesgodwon.github.io/MusicSite/post/post_1/</guid>
+      <description>SO TI RE,SO TI RE,SO TI RE,SO TI~ </description>
+    </item>
+    
+  </channel>
+</rss>

@@ -8,7 +8,7 @@
   
   <url>
     <loc>https://jamesgodwon.github.io/MusicSite/post/</loc>
-    <lastmod>2018-05-23T00:00:00+00:00</lastmod>
+    <lastmod>2020-06-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -22,12 +22,47 @@
   
   <url>
     <loc>https://jamesgodwon.github.io/MusicSite/</loc>
-    <lastmod>2018-06-19T00:00:00+00:00</lastmod>
+    <lastmod>2020-06-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://jamesgodwon.github.io/MusicSite/categories/</loc>
-    <lastmod>2018-06-19T00:00:00+00:00</lastmod>
+    <lastmod>2020-06-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jamesgodwon.github.io/MusicSite/post/post_1/</loc>
+    <lastmod>2020-06-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jamesgodwon.github.io/MusicSite/tags/jam/</loc>
+    <lastmod>2020-06-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jamesgodwon.github.io/MusicSite/tags/notes/</loc>
+    <lastmod>2020-06-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jamesgodwon.github.io/MusicSite/categories/notes/</loc>
+    <lastmod>2020-06-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jamesgodwon.github.io/MusicSite/tags/tab/</loc>
+    <lastmod>2020-06-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jamesgodwon.github.io/MusicSite/categories/tab/</loc>
+    <lastmod>2020-06-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jamesgodwon.github.io/MusicSite/tags/</loc>
+    <lastmod>2020-06-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -47,11 +82,6 @@
   
   <url>
     <loc>https://jamesgodwon.github.io/MusicSite/tags/poems/</loc>
-    <lastmod>2018-06-19T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://jamesgodwon.github.io/MusicSite/tags/</loc>
     <lastmod>2018-06-19T00:00:00+00:00</lastmod>
   </url>
   
@@ -78,36 +108,6 @@
   <url>
     <loc>https://jamesgodwon.github.io/MusicSite/poems/poems_5/</loc>
     <lastmod>2018-06-05T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://jamesgodwon.github.io/MusicSite/categories/aliquam-auctor/</loc>
-    <lastmod>2018-05-23T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://jamesgodwon.github.io/MusicSite/tags/aliquam-incididunt/</loc>
-    <lastmod>2018-05-23T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://jamesgodwon.github.io/MusicSite/categories/do/</loc>
-    <lastmod>2018-05-23T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://jamesgodwon.github.io/MusicSite/tags/notes/</loc>
-    <lastmod>2018-05-23T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://jamesgodwon.github.io/MusicSite/tags/velit/</loc>
-    <lastmod>2018-05-23T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://jamesgodwon.github.io/MusicSite/post/post_1/</loc>
-    <lastmod>2018-05-23T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -197,6 +197,11 @@
   
   <url>
     <loc>https://jamesgodwon.github.io/MusicSite/post/post_6/</loc>
+    <lastmod>2018-03-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jamesgodwon.github.io/MusicSite/post/post_7/</loc>
     <lastmod>2018-03-09T00:00:00+00:00</lastmod>
   </url>
   
