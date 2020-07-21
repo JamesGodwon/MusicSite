@@ -6,10 +6,24 @@
     <description>Recent content in Blog Posts on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Mon, 01 Jun 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 21 Jul 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://jamesgodwon.github.io/MusicSite/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>PhotoShop製圖</title>
+      <link>https://jamesgodwon.github.io/MusicSite/post/post_2/</link>
+      <pubDate>Tue, 21 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://jamesgodwon.github.io/MusicSite/post/post_2/</guid>
+      <description>成品:高敏詩(GoMinSi 고민시)與我@故宮婚宴 步驟:
+1.使用裁切工具把原圖適當擴張
+2.挑好高敏詩的照片後使用選取工具去背後轉存ps專案檔
+3.整合專案並調整(拉直、翻轉、縮放、扭曲)素材
+4.將人像部分適當增亮讓光源一致
+5.將背景空洞處補滿</description>
+    </item>
     
     <item>
       <title>G和弦琶音音階</title>
@@ -18,15 +32,6 @@
       
       <guid>https://jamesgodwon.github.io/MusicSite/post/post_1/</guid>
       <description>SO TI RE,SO TI RE,SO TI RE,SO TI~ </description>
-    </item>
-    
-    <item>
-      <title>enim ultricies dolore metus ac eiusmod interdum</title>
-      <link>https://jamesgodwon.github.io/MusicSite/post/post_2/</link>
-      <pubDate>Fri, 18 May 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://jamesgodwon.github.io/MusicSite/post/post_2/</guid>
-      <description>non tempor mauris elementum semper Interdum dolor sit etiam aenean ac fermentum auctor cursus nulla tellus purus justo. Ullamcorper elit do tincidunt auctor sit leo, pulvinar scelerisque do fringilla nisi porttitor fermentum. Tellus elit mauris lobortis iaculis mus morbi nunc lacus. Velit placerat facilisis varius odio purus sociis elementum morbi. Dignissim congue nulla diam aenean mi commodo quisque egestas amet mattis posuere lobortis. Tristique laoreet mus diam tellus vestibulum scelerisque ipsum, rhoncus mollis sed consequat natoque eget sem.</description>
     </item>
     
     <item>

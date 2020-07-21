@@ -6,10 +6,28 @@
     <description>Recent content in Categories on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Mon, 01 Jun 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 21 Jul 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://jamesgodwon.github.io/MusicSite/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>image</title>
+      <link>https://jamesgodwon.github.io/MusicSite/categories/image/</link>
+      <pubDate>Tue, 21 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://jamesgodwon.github.io/MusicSite/categories/image/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>photo</title>
+      <link>https://jamesgodwon.github.io/MusicSite/categories/photo/</link>
+      <pubDate>Tue, 21 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://jamesgodwon.github.io/MusicSite/categories/photo/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>notes</title>
@@ -53,24 +71,6 @@
       <pubDate>Tue, 05 Jun 2018 00:00:00 +0000</pubDate>
       
       <guid>https://jamesgodwon.github.io/MusicSite/categories/aliqua/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>facilisi odio</title>
-      <link>https://jamesgodwon.github.io/MusicSite/categories/facilisi-odio/</link>
-      <pubDate>Fri, 18 May 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://jamesgodwon.github.io/MusicSite/categories/facilisi-odio/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>id</title>
-      <link>https://jamesgodwon.github.io/MusicSite/categories/id/</link>
-      <pubDate>Fri, 18 May 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://jamesgodwon.github.io/MusicSite/categories/id/</guid>
       <description></description>
     </item>
     
