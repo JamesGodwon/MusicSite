@@ -8,7 +8,7 @@
   
   <url>
     <loc>https://jamesgodwon.github.io/MusicSite/post/</loc>
-    <lastmod>2020-07-21T00:00:00+00:00</lastmod>
+    <lastmod>2020-08-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -22,12 +22,47 @@
   
   <url>
     <loc>https://jamesgodwon.github.io/MusicSite/</loc>
-    <lastmod>2020-07-21T00:00:00+00:00</lastmod>
+    <lastmod>2020-08-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://jamesgodwon.github.io/MusicSite/categories/</loc>
-    <lastmod>2020-07-21T00:00:00+00:00</lastmod>
+    <lastmod>2020-08-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jamesgodwon.github.io/MusicSite/tags/fingerstyle/</loc>
+    <lastmod>2020-08-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jamesgodwon.github.io/MusicSite/categories/fingerstyle/</loc>
+    <lastmod>2020-08-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jamesgodwon.github.io/MusicSite/post/post_3/</loc>
+    <lastmod>2020-08-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jamesgodwon.github.io/MusicSite/tags/live/</loc>
+    <lastmod>2020-08-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jamesgodwon.github.io/MusicSite/tags/tab/</loc>
+    <lastmod>2020-08-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jamesgodwon.github.io/MusicSite/categories/tab/</loc>
+    <lastmod>2020-08-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jamesgodwon.github.io/MusicSite/tags/</loc>
+    <lastmod>2020-08-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -56,11 +91,6 @@
   </url>
   
   <url>
-    <loc>https://jamesgodwon.github.io/MusicSite/tags/</loc>
-    <lastmod>2020-07-21T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://jamesgodwon.github.io/MusicSite/tags/%E8%A3%BD%E5%9C%96/</loc>
     <lastmod>2020-07-21T00:00:00+00:00</lastmod>
   </url>
@@ -82,16 +112,6 @@
   
   <url>
     <loc>https://jamesgodwon.github.io/MusicSite/categories/notes/</loc>
-    <lastmod>2020-06-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://jamesgodwon.github.io/MusicSite/tags/tab/</loc>
-    <lastmod>2020-06-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://jamesgodwon.github.io/MusicSite/categories/tab/</loc>
     <lastmod>2020-06-01T00:00:00+00:00</lastmod>
   </url>
   
@@ -273,31 +293,6 @@
   <url>
     <loc>https://jamesgodwon.github.io/MusicSite/categories/mauris/</loc>
     <lastmod>2018-01-30T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://jamesgodwon.github.io/MusicSite/categories/diam-aliqua/</loc>
-    <lastmod>2018-01-06T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://jamesgodwon.github.io/MusicSite/categories/fringilla/</loc>
-    <lastmod>2018-01-06T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://jamesgodwon.github.io/MusicSite/tags/laoreet/</loc>
-    <lastmod>2018-01-06T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://jamesgodwon.github.io/MusicSite/post/post_3/</loc>
-    <lastmod>2018-01-06T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://jamesgodwon.github.io/MusicSite/tags/mollis-urna/</loc>
-    <lastmod>2018-01-06T00:00:00+00:00</lastmod>
   </url>
   
 </urlset>

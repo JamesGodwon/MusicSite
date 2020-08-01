@@ -6,10 +6,37 @@
     <description>Recent content in Tags on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Tue, 21 Jul 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 01 Aug 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://jamesgodwon.github.io/MusicSite/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>fingerstyle</title>
+      <link>https://jamesgodwon.github.io/MusicSite/tags/fingerstyle/</link>
+      <pubDate>Sat, 01 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://jamesgodwon.github.io/MusicSite/tags/fingerstyle/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Live</title>
+      <link>https://jamesgodwon.github.io/MusicSite/tags/live/</link>
+      <pubDate>Sat, 01 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://jamesgodwon.github.io/MusicSite/tags/live/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tab</title>
+      <link>https://jamesgodwon.github.io/MusicSite/tags/tab/</link>
+      <pubDate>Sat, 01 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://jamesgodwon.github.io/MusicSite/tags/tab/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>photoshop</title>
@@ -53,15 +80,6 @@
       <pubDate>Mon, 01 Jun 2020 00:00:00 +0000</pubDate>
       
       <guid>https://jamesgodwon.github.io/MusicSite/tags/notes/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>tab</title>
-      <link>https://jamesgodwon.github.io/MusicSite/tags/tab/</link>
-      <pubDate>Mon, 01 Jun 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://jamesgodwon.github.io/MusicSite/tags/tab/</guid>
       <description></description>
     </item>
     
@@ -206,24 +224,6 @@
       <pubDate>Tue, 30 Jan 2018 00:00:00 +0000</pubDate>
       
       <guid>https://jamesgodwon.github.io/MusicSite/tags/imperdiet/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>laoreet</title>
-      <link>https://jamesgodwon.github.io/MusicSite/tags/laoreet/</link>
-      <pubDate>Sat, 06 Jan 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://jamesgodwon.github.io/MusicSite/tags/laoreet/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>mollis urna</title>
-      <link>https://jamesgodwon.github.io/MusicSite/tags/mollis-urna/</link>
-      <pubDate>Sat, 06 Jan 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://jamesgodwon.github.io/MusicSite/tags/mollis-urna/</guid>
       <description></description>
     </item>
     
