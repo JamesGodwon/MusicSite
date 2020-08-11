@@ -6,17 +6,35 @@
     <description>Recent content in Tags on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Sat, 01 Aug 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 11 Aug 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://jamesgodwon.github.io/MusicSite/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>cover</title>
+      <link>https://jamesgodwon.github.io/MusicSite/tags/cover/</link>
+      <pubDate>Tue, 11 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://jamesgodwon.github.io/MusicSite/tags/cover/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>fingerstyle</title>
       <link>https://jamesgodwon.github.io/MusicSite/tags/fingerstyle/</link>
-      <pubDate>Sat, 01 Aug 2020 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 11 Aug 2020 00:00:00 +0000</pubDate>
       
       <guid>https://jamesgodwon.github.io/MusicSite/tags/fingerstyle/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sungha Jung</title>
+      <link>https://jamesgodwon.github.io/MusicSite/tags/sungha-jung/</link>
+      <pubDate>Tue, 11 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://jamesgodwon.github.io/MusicSite/tags/sungha-jung/</guid>
       <description></description>
     </item>
     
@@ -188,24 +206,6 @@
       <pubDate>Fri, 09 Mar 2018 00:00:00 +0000</pubDate>
       
       <guid>https://jamesgodwon.github.io/MusicSite/tags/fames-porta/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>ligula</title>
-      <link>https://jamesgodwon.github.io/MusicSite/tags/ligula/</link>
-      <pubDate>Sun, 25 Feb 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://jamesgodwon.github.io/MusicSite/tags/ligula/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>malesuada ornare</title>
-      <link>https://jamesgodwon.github.io/MusicSite/tags/malesuada-ornare/</link>
-      <pubDate>Sun, 25 Feb 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://jamesgodwon.github.io/MusicSite/tags/malesuada-ornare/</guid>
       <description></description>
     </item>
     

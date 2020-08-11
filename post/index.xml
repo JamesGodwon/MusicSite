@@ -6,10 +6,19 @@
     <description>Recent content in Blog Posts on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Sat, 01 Aug 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 11 Aug 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://jamesgodwon.github.io/MusicSite/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Riding a Bicycle </title>
+      <link>https://jamesgodwon.github.io/MusicSite/post/post_4/</link>
+      <pubDate>Tue, 11 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://jamesgodwon.github.io/MusicSite/post/post_4/</guid>
+      <description>第一次練習   速度不夠快，有些卡卡的XD，有機會再二刷吧~</description>
+    </item>
     
     <item>
       <title>Happy birthday Theme</title>
@@ -68,15 +77,6 @@
       
       <guid>https://jamesgodwon.github.io/MusicSite/post/post_7/</guid>
       <description>morbi potenti lectus natoque vulputate Aliquam curabitur tristique netus malesuada lacinia praesent aliquam condimentum sagittis. Aliqua tristique ullamcorper fermentum bibendum est ornare nec odio. Metus penatibus fermentum pretium purus nunc phasellus mi natoque tristique hendrerit risus tortor. Donec commodo sem tortor dignissim tempor lectus praesent hendrerit sociis pellentesque labore suscipit. Felis felis tristique dignissim luctus eiusmod nullam auctor, a dictum erat fames ut venenatis elementum. Labore madssa risus suspendisse ultrices posuere aliquet gravida, nunc amet mollis sem tempor justo porta.</description>
-    </item>
-    
-    <item>
-      <title>est odio vel sapien augue neque incididunt</title>
-      <link>https://jamesgodwon.github.io/MusicSite/post/post_4/</link>
-      <pubDate>Sun, 25 Feb 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://jamesgodwon.github.io/MusicSite/post/post_4/</guid>
-      <description>ullamcorper odio lectus convallis leo Ultrices lacinia et do labore sapien nulla eu dictum luctus. Suscipit sollicitudin turpis bolestie pharetra nunc lorem gravida vitae proin. Dolor venenatis tortor vel eu at bolestie in dictum condimentum curabitur quis neque. Nisi ultricies elit proin sollicitudin vel fringilla nisi, augue aenean vivamus morbi lobortis netus dignissim. Amet pharetra gravida fermentum nullam luctus mattis laoreet turpis odio morbi elementum. Auctor morbi quam interdum donec eleifend magnis orci vestibulum facilisis rutrum vulputate potenti.</description>
     </item>
     
   </channel>
