@@ -6,7 +6,7 @@
     <description>Recent content in Tags on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Tue, 11 Aug 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 08 Jan 2021 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://jamesgodwon.github.io/MusicSite/tags/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,7 +14,7 @@
     <item>
       <title>cover</title>
       <link>https://jamesgodwon.github.io/MusicSite/tags/cover/</link>
-      <pubDate>Tue, 11 Aug 2020 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 08 Jan 2021 00:00:00 +0000</pubDate>
       
       <guid>https://jamesgodwon.github.io/MusicSite/tags/cover/</guid>
       <description></description>
@@ -23,7 +23,7 @@
     <item>
       <title>fingerstyle</title>
       <link>https://jamesgodwon.github.io/MusicSite/tags/fingerstyle/</link>
-      <pubDate>Tue, 11 Aug 2020 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 08 Jan 2021 00:00:00 +0000</pubDate>
       
       <guid>https://jamesgodwon.github.io/MusicSite/tags/fingerstyle/</guid>
       <description></description>
@@ -32,7 +32,7 @@
     <item>
       <title>Sungha Jung</title>
       <link>https://jamesgodwon.github.io/MusicSite/tags/sungha-jung/</link>
-      <pubDate>Tue, 11 Aug 2020 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 08 Jan 2021 00:00:00 +0000</pubDate>
       
       <guid>https://jamesgodwon.github.io/MusicSite/tags/sungha-jung/</guid>
       <description></description>
@@ -165,24 +165,6 @@
     </item>
     
     <item>
-      <title>egestas donec</title>
-      <link>https://jamesgodwon.github.io/MusicSite/tags/egestas-donec/</link>
-      <pubDate>Mon, 23 Apr 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://jamesgodwon.github.io/MusicSite/tags/egestas-donec/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>venenatis</title>
-      <link>https://jamesgodwon.github.io/MusicSite/tags/venenatis/</link>
-      <pubDate>Mon, 23 Apr 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://jamesgodwon.github.io/MusicSite/tags/venenatis/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>placerat</title>
       <link>https://jamesgodwon.github.io/MusicSite/tags/placerat/</link>
       <pubDate>Wed, 21 Mar 2018 00:00:00 +0000</pubDate>
@@ -206,6 +188,15 @@
       <pubDate>Fri, 09 Mar 2018 00:00:00 +0000</pubDate>
       
       <guid>https://jamesgodwon.github.io/MusicSite/tags/fames-porta/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>venenatis</title>
+      <link>https://jamesgodwon.github.io/MusicSite/tags/venenatis/</link>
+      <pubDate>Fri, 09 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://jamesgodwon.github.io/MusicSite/tags/venenatis/</guid>
       <description></description>
     </item>
     
